@@ -15,6 +15,7 @@ extension AnimationExtensions on Animate {
       curve: Curves.elasticOut,
       begin: const Offset(0.5, 0.5),
     ).fadeIn();
+
   }
 
   Animate listItem({required int index}) {
