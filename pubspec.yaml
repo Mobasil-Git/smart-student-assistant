@@ -35,7 +35,7 @@ dependencies:
   image_picker: "1.0.4"
   path: "1.9.1"
   fl_chart: "0.66.2"
-  google_fonts: "6.1.0"
+  google_fonts: "6.3.3"
   flutter_animate: "4.5.0"
   lottie: "3.1.0"
   glassmorphism: "3.0.0"
@@ -71,7 +71,6 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/pics/
     - assets/lottie/
 
   # An image asset can refer to one or more resolution-specific "variants", see
