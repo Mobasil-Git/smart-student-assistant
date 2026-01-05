@@ -16,6 +16,9 @@ class NotesService {
     return List<Map<String, dynamic>>.from(response);
   }
 
+
+
+
   Future<void> addNote(String title, String content) async {
     final user = _client.auth.currentUser!;
     await _client.from('notes').insert({
@@ -24,6 +27,7 @@ class NotesService {
       'content': content,
     });
   }
+
 
   Future<void> deleteNote(String id) async {
     await _client.from('notes').delete().eq('id', id);
